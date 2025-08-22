@@ -33,9 +33,6 @@ def run_analysis_pipeline(processed_path: Path, out_dir: Path) -> None:
     except Exception:
         df = pd.read_csv(processed_path.with_suffix(".csv"))
 
-    # 1) Descriptive stats for sanity checks and evaluation
-    _basic_aggregations(df, out_dir)
 
-    # 2) Placeholder for modeling (e.g., predict high-violation systems)
-    # TODO: feature engineering & ML (logistic regression / random forest).
-    # Save evaluation metrics (precision/recall) to out_dir for Part 3/4 testing.
+
+  
