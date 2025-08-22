@@ -1,14 +1,14 @@
 # EPA Drinking Water Violations — Final Project (Part 2)
 
 ## Project Overview
-- **Business problem**: Help agencies and communities understand **where and when violations occur**, identify factors correlated with high-violation systems, and provide **evidence for prioritizing inspections and interventions**.
+- **Business problem**: Help agencies and communities understand where and when violations occur and identify factors correlated with high-violation facilities.This model focuses on facilities in Region 3 of the EPA which is D.C., Maryland, Virgina, West Virginia, and Pennsylvania.
 - **Primary dataset**: EPA ECHO SDWA extract (included here as `data/extracted/EPA_Final_Data.csv`).
 - **Key stages**: ETL → Analysis → Visualization.
 - **Expected outputs**: Processed/tidy data, descriptive aggregates by year/state, and charts (trend over time; top states).
 
 ## Setup Instructions
 ```bash
-# 1) Clone your repo (replace with your URL)
+# 1) Clone the repo (replace with your URL)
 git clone <YOUR_REPO_URL>.git
 cd inst414-final-project-diana-mendoza
 
@@ -57,9 +57,3 @@ inst414-final-project-diana-mendoza/
 └── requirements.txt
 ```
 
-## Notes
-- For submission, regenerate `requirements.txt` after your final environment setup:
-  ```bash
-  pip freeze > requirements.txt
-  ```
-- Add your instructors as collaborators on GitHub as required by the assignment.
