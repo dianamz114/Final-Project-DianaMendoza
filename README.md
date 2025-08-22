@@ -10,13 +10,10 @@
 ```bash
 # 1) Clone the repo (replace with your URL)
 git clone <YOUR_REPO_URL>.git
-cd inst414-final-project-diana-mendoza
+cd inst414-final-project-part2-diana-mendoza
 
 # 2) Create & activate a virtual environment
 python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
 
 # 3) Install dependencies
 pip install -r requirements.txt
