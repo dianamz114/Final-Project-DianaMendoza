@@ -1,0 +1,14 @@
+variable_name,description,dtype,missing_count,unique_values,example
+PWS ID,,object,0,14087,DC0000002
+PWS Name,,object,0,15289,D.C. WATER AND SEWER AUTHORITY
+Detailed Facility Report,,object,0,14087,https://echo.epa.gov/detailed-facility-report?fid=DC0000002&sys=SDWIS
+Calendar Year,,object,0,10,CY 2023
+Primacy Agency Type,,object,0,2,EPA
+State/Territory/Tribe,,object,0,6,District of Columbia
+City Served,,object,0,570,-
+Population Served,,object,0,2193,"632,323"
+Water System Type,,object,0,3,Community
+System Size,,object,0,5,Very Large
+Source Water,,object,0,7,Surface Water (SWP)
+Violation Type,,object,0,4,Monitoring & Reporting
+Violations,,object,0,286,2
