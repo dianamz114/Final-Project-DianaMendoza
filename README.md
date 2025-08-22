@@ -1,7 +1,5 @@
 # EPA Drinking Water Violations — Final Project (Part 2)
 
-This repository contains the **Part 2** technical development for a data science pipeline focused on U.S. Safe Drinking Water Act (SDWA) **public water system (PWS)** violations.
-
 ## Project Overview
 - **Business problem**: Help agencies and communities understand **where and when violations occur**, identify factors correlated with high-violation systems, and provide **evidence for prioritizing inspections and interventions**.
 - **Primary dataset**: EPA ECHO SDWA extract (included here as `data/extracted/EPA_Final_Data.csv`).
